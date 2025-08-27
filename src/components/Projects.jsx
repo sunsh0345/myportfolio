@@ -70,7 +70,9 @@ export default function Projects() {
                     <div class="project-content">
                         <h3>배달모아(스프링)</h3>
                         <p>기존 배달모아 서비스의 개선 및 확장<br />
-                            관리자 페이지 및 사장님 페이지 신규 추가
+                            관리자 페이지 및 사장님 페이지 신규 추가<br/>
+                            가게 리뷰 페이지 추가<br/>
+                            Flutter 기반 모바일 앱 동시 개발 및 AWS 클라우드 인프라 구축
                         </p>
                         <div class="project-tech">
                             <span class="tech-tag">React</span>

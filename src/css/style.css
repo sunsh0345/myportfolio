@@ -188,8 +188,8 @@ section {
 }
 
 .profile-image {
-    width: 250px;
-    height: 200px;
+    width: 350px;
+    height: 300px;
     border-radius: 50%;
     background: linear-gradient(45deg, #4facfe, #00f2fe);
     display: flex;
@@ -430,4 +430,5 @@ footer {
         flex-direction: column;
         gap: 30px;
     }
+    
 }
