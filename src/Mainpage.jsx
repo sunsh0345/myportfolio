@@ -44,23 +44,6 @@ export default function Mainpage() {
         };
     }, []);
 
-    // 타이핑 효과
-    useEffect(() => {
-        const text = "백엔드 개발자를 꿈꾸는 선승희입니다";
-        let i = 0;
-
-        const typeWriter = () => {
-            if (i < text.length) {
-                setTypedText((prev) => prev + text.charAt(i));
-                i++;
-                setTimeout(typeWriter, 50);
-            }
-        };
-
-        const timer = setTimeout(typeWriter, 1000);
-        return () => clearTimeout(timer);
-    }, []);
-
     // 카드 hover/click 이벤트 핸들러
     const handleCardClick = (e) => {
         e.currentTarget.style.transform = "scale(0.98)";
@@ -102,7 +85,7 @@ export default function Mainpage() {
                 </div>
                 <div className="hero-content">
                     <h1>안녕하세요!</h1>
-                    <p>{typedText}</p>
+                    <p>백엔드 개발자를 꿈꾸는 선승희입니다</p>
                     <a href="#projects" className="cta-button">프로젝트 보기</a>
                 </div>
             </section>
@@ -266,7 +249,7 @@ export default function Mainpage() {
                                 <p>010-9248-6853</p>
                             </div>
                             <div className="contact-item">
-                                <div className="contact-item">Github</div>
+                                <div className="contact-item">GitHub</div>
                                 <a href="https://github.com/sunsh0345">github.com/sunsh0345</a>
                             </div>
                         </div>
