@@ -1,0 +1,31 @@
+/* 연락처 섹션 */
+.contact {
+    background: #f8f9fa;
+}
+
+.contact-content {
+    text-align: center;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.contact-info {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 40px;
+}
+
+.contact-item {
+    text-align: center;
+}
+
+.contact-item i {
+    font-size: 2rem;
+    color: #4facfe;
+    margin-bottom: 10px;
+}
+
+.contact-item p {
+    color: #666;
+}
