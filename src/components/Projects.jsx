@@ -169,7 +169,7 @@ export default function Projects() {
                         <h2>RocketBookstore 프로젝트 영상</h2>
                         <div className="video-wrapper">
                             <video
-                                src="public/video/RocketBookstore.mp4"
+                                src="/video/RocketBookstore.mp4"
                                 controls
                                 autoPlay
                                 muted
