@@ -1,5 +1,4 @@
 import React, { useRef, useEffect } from "react";
-// import "../css/Nav.css";
 import "../css/style.css";
 
 export default function Nav() {

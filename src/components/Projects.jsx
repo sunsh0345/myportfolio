@@ -1,9 +1,5 @@
 import React, { useState } from "react";
 import "../css/style.css";
-import bookstoreImg from "../img/bookstore.jpg";
-import deliveryMoaImg from "../img/deliverymoa.png";
-import deliveryMoaRenewalImg from "../img/deliverymoa_renewal.png";
-import rocketVideo from "../video/rocketbookstore.mp4";
 
 export default function Projects() {
     const [isModalOpen, setIsModalOpen] = useState(false);
@@ -36,7 +32,7 @@ export default function Projects() {
                     >
                         <div className="project-image"
                         onClick={handleCardClick}>
-                            <img src={bookstoreImg} alt="bookstore" />
+                            <img src="img/bookstore.jpg" alt="bookstore" />
                         </div>
                         <div className="project-content">
                             <h3>RocketBookstore</h3>
@@ -78,7 +74,7 @@ export default function Projects() {
                         onMouseLeave={(e) => handleCardHover(e, false)}
                     >
                         <div className="project-image">
-                            <img src={deliveryMoaImg} alt="deliverymoa" />
+                            <img src="img/deliverymoa.png" alt="deliverymoa" />
                         </div>
                         <div className="project-content">
                             <h3>배달모아(리액트)</h3>
@@ -127,7 +123,7 @@ export default function Projects() {
                         onMouseLeave={(e) => handleCardHover(e, false)}
                     >
                         <div className="project-image">
-                            <img src={deliveryMoaRenewalImg} alt="deliverymoa_renewal" />
+                            <img src="img/deliverymoa_renewal.png" alt="deliverymoa_renewal" />
                         </div>
                         <div className="project-content">
                             <h3>배달모아(스프링)</h3>
@@ -173,7 +169,7 @@ export default function Projects() {
                         <h2>RocketBookstore 프로젝트 영상</h2>
                         <div className="video-wrapper">
                             <video
-                                src={rocketVideo}
+                                src="video/rocketbookstore.mp4"
                                 controls
                                 autoPlay
                                 muted

@@ -1,7 +1,5 @@
 import React from "react";
-// import "../css/About.css";
 import "../css/style.css";
-import meImg from "../img/me.jpg";
 
 export default function About() {
     return (
@@ -10,7 +8,7 @@ export default function About() {
                 <h2 className="section-title">About Me</h2>
                 <div className="about-content">
                     <div className="profile-image">
-                        <img src={meImg} alt="me" />
+                        <img src="img/me.jpg" alt="me" />
                     </div>
                     <div className="about-text">
                         <table>

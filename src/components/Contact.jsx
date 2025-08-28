@@ -1,5 +1,4 @@
 import React from "react";
-// import "../css/Contact.css";
 import "../css/style.css";
 
 export default function Contact() {
@@ -20,7 +19,9 @@ export default function Contact() {
                         </div>
                         <div className="contact-item">
                             <div className="contact-item">GitHub</div>
-                            <a href="https://github.com/sunsh0345">github.com/sunsh0345</a>
+                            <a href="https://github.com/sunsh0345"
+                                target="_blank"
+                                rel="noreferrer">github.com/sunsh0345</a>
                         </div>
                     </div>
                 </div>

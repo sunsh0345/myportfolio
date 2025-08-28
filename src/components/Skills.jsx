@@ -1,10 +1,5 @@
 import React from "react";
-// import "../css/Skills.css";
 import "../css/style.css";
-import frontendImg from "../img/frontend.png";
-import backendImg from "../img/backend.png";
-import databaseImg from "../img/database.png";
-import toolsImg from "../img/tools.png";
 
 export default function Skills() {
     const handleCardClick = (e) => {
@@ -25,28 +20,28 @@ export default function Skills() {
                 <div className="skills-grid">
                     <div className="skill-card" onMouseEnter={(e) => handleCardHover(e, true)} onMouseLeave={(e) => handleCardHover(e, false)} onClick={handleCardClick}>
                         <div className="skill-icon">
-                            <img src={frontendImg} alt="frontend" />
+                            <img src="img/frontend.png" alt="frontend" />
                         </div>
                         <h3>Frontend</h3>
                         <p>HTML, CSS, JavaScript<br />React</p>
                     </div>
                     <div className="skill-card" onMouseEnter={(e) => handleCardHover(e, true)} onMouseLeave={(e) => handleCardHover(e, false)} onClick={handleCardClick}>
                         <div className="skill-icon">
-                            <img src={backendImg} alt="backend" />
+                            <img src="img/backend.png" alt="backend" />
                         </div>
                         <h3>Backend</h3>
                         <p>Node.js, JSP, Spring Boot</p>
                     </div>
                     <div className="skill-card" onMouseEnter={(e) => handleCardHover(e, true)} onMouseLeave={(e) => handleCardHover(e, false)} onClick={handleCardClick}>
                         <div className="skill-icon">
-                            <img src={databaseImg} alt="database" />
+                            <img src="img/database.png" alt="database" />
                         </div>
                         <h3>Database</h3>
                         <p>oracle, supabase, MySQL</p>
                     </div>
                     <div className="skill-card" onMouseEnter={(e) => handleCardHover(e, true)} onMouseLeave={(e) => handleCardHover(e, false)} onClick={handleCardClick}>
                         <div className="skill-icon">
-                            <img src={toolsImg} alt="tools" />
+                            <img src="img/tools.png" alt="tools" />
                         </div>
                         <h3>Tools</h3>
                         <p>Git, GitHub<br />AWS, Figma</p>
