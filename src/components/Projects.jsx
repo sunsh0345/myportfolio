@@ -48,7 +48,7 @@ export default function Projects() {
                             </div>
                             <div className="project-links">
                                 <a 
-                                    href="https://mybox.naver.com/#/my/doc-viewer/c3Vuc2g0NXwzNDcyNTk2Nzk4ODM3MTA3Mjg4fEZ8MA/https%3A%2F%2Ffiles.mybox.naver.com%2F%EB%82%B4%20%EB%AC%B8%EC%84%9C%2FRocket%20Bookstore.pdf%3Fuserid%3Dsunsh45%26useridx%3D51957812%26attachment%3D2%26NDriveSvcType%3DNHN%2FND-WEB%20Ver/ndrive?resourceKey=c3Vuc2g0NXwzNDcyNTMyODQwMjE1ODk3Njg5fER8MA&downloadable=true&editable=true" 
+                                    href="/pdf/Rocket Bookstore.pdf" 
                                     className="project-link"
                                     target="_blank"
                                     rel="noreferrer"
@@ -89,7 +89,7 @@ export default function Projects() {
                             </div>
                             <div className="project-links">
                                 <a 
-                                    href="https://mybox.naver.com/#/my/doc-viewer/c3Vuc2g0NXwzNDcyNTk3NjU5NTEyNTY3Mzg0fEZ8MA/https%3A%2F%2Ffiles.mybox.naver.com%2F%EB%82%B4%20%EB%AC%B8%EC%84%9C%2FDelivery-moA%20(Copy).pdf%3Fuserid%3Dsunsh45%26useridx%3D51957812%26attachment%3D2%26NDriveSvcType%3DNHN%2FND-WEB%20Ver/ndrive?resourceKey=c3Vuc2g0NXwzNDcyNTMyODQwMjE1ODk3Njg5fER8MA&downloadable=true&editable=true" 
+                                    href="/pdf/Delivery-moA (Copy).pdf" 
                                     className="project-link"
                                     target="_blank"
                                     rel="noreferrer"
@@ -140,7 +140,7 @@ export default function Projects() {
                             </div>
                             <div className="project-links">
                                 <a 
-                                    href="https://mybox.naver.com/#/my/doc-viewer/c3Vuc2g0NXwzNDcyNTk3NjUwOTM1MTgyNDI0fEZ8MA/https%3A%2F%2Ffiles.mybox.naver.com%2F%EB%82%B4%20%EB%AC%B8%EC%84%9C%2F%EB%B0%B0%EB%8B%AC%EB%AA%A8%EC%95%84%20%EC%B5%9C%EC%A2%85%EB%B0%9C%ED%91%9C.pdf%3Fuserid%3Dsunsh45%26useridx%3D51957812%26attachment%3D2%26NDriveSvcType%3DNHN%2FND-WEB%20Ver/ndrive?resourceKey=c3Vuc2g0NXwzNDcyNTMyODQwMjE1ODk3Njg5fER8MA&downloadable=true&editable=true" 
+                                    href="/pdf/Delivery-moA Spring.pdf" 
                                     className="project-link"
                                     target="_blank"
                                     rel="noreferrer"
@@ -169,7 +169,7 @@ export default function Projects() {
                         <h2>RocketBookstore 프로젝트 영상</h2>
                         <div className="video-wrapper">
                             <video
-                                src="video/rocketbookstore.mp4"
+                                src="public/video/RocketBookstore.mp4"
                                 controls
                                 autoPlay
                                 muted
